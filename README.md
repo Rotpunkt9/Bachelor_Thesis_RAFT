@@ -1,5 +1,5 @@
 # Bachelor_Thesis_RAFT
-This repository contains the code and data used in my Bachelor thesis on "Disinformation detection using Large Language Models (LLMs)"
+This repository contains the supplementary material for my Bachelor thesis on "Disinformation detection using Large Language Models (LLMs)". It includes the code used for "Rationale-augmented Fine-tuning", the test datasets, and the results of the technical experiments.
 
 ## Abstract:
 Disinformation is a pervasive, multifaceted problem in our digital age, which poses significant threats to our society, including political processes. Conventional fact-checking methods cannot keep up with the flood of information spread online. Therefore automatic disinformation detection methods are needed. The advent of Large Language Models (LLMs) has opened new avenues to address this problem. LLMs, with their advanced language understanding capabilities, can be utilized to detect disinformation, making them a valuable tool for this task.
@@ -9,6 +9,11 @@ This thesis presents a novel method, Rationale-Augmented Fine-Tuning (RAFT), for
 The results demonstrate the effectiveness of the RAFT model in disinformation detection across multiple benchmark datasets, often outperforming both the base SLM before fine-tuning and the LLM teacher model. The thesis concludes that RAFT significantly enhances the disinformation detection capabilities of SLMs, offering a promising direction for future research in combating fake news.
 ## Data
 This folder contains all five test sets used to evaluate the performance of the models.
+
+
+## Results
+This folder contains three subfolders one for each of the three models evaluated in the thesis. In the subfolder you can find the results on each of the benchmark datasets.
+
 
 ## Code
 Contains five jupyter notebooks.
