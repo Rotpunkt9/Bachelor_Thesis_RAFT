@@ -27,11 +27,12 @@ Mistral_finetuning_RAFT: This notebook was used to fine-tune Mistral-7B on the r
 
 Mistral_ollama_inference: This code was used for the baseline evaluation of the SLM before fine-tuning.
 
-## Model
-The fine-tuned RAFT model is available on Hugging Face: https://huggingface.co/Koni99/mistral-7b-RAFT-unsloth2-merged
-
 
 RAFT_model_inference: This notebook was used to create the predictions for the test sets by the RAFT model (after fine-tuning)
 
 
 evaluation_final: With this notebook the results were evaluated and the results plotted.
+
+## Model
+The fine-tuned RAFT model is available on Hugging Face: https://huggingface.co/Koni99/mistral-7b-RAFT-unsloth2-merged
+
